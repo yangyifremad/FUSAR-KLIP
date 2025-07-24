@@ -76,6 +76,7 @@ The model demonstrates leading generalization capability and semantic alignment 
   <br/>
   <em>Figure 5: Performance of vision and vision-language tasks.</em>
 </div>
+
 ---
 
 ## 📁 Dataset Download
