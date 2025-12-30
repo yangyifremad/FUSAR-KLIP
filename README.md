@@ -2,10 +2,10 @@
   <img src="fu/figure/logo.svg" alt="SAR-KnowLIP Logo" width="120"/>
 </p>
 
-<h1 align="center">SAR-GEOVL-1M & SAR-KnowLIP</h1>
+<h1 align="center">FUSAR-GEOVL-1M & FUSAR-KLIP</h1>
 
 
-**SAR-KnowLIP** is a knowledge-guided self-supervised multimodal learning framework for SAR (Synthetic Aperture Radar) image interpretation. It introduces hierarchical cognitive reasoning chains to guide large language models in structured SAR image captioning and semantic understanding.
+**FUSAR-KLIP** is a knowledge-guided self-supervised multimodal learning framework for SAR (Synthetic Aperture Radar) image interpretation. It introduces hierarchical cognitive reasoning chains to guide large language models in structured SAR image captioning and semantic understanding.
 
 ---
 
@@ -14,7 +14,7 @@
 <div align="center">
   <img src="fu/figure/framework.png" width="650" alt="SAR-KnowLIP Framework"/>
   <br/>
-  <em>Figure 1: Overall framework of the SAR-KnowLIP .</em>
+  <em>Figure 1: Overall framework of the FUSAR-KLIP .</em>
 </div>
 
 
@@ -22,27 +22,27 @@
 
 ## 🔍 Highlights
 
-- **📦 SAR-GEOVL-1M Dataset:**  
+- **📦 FUSAR-GEOVL-1M Dataset:**  
   The first large-scale SAR image-text dataset with comprehensive geographic metadata. It includes data from **three SAR satellite platforms**, **30 cities**, and **multi-scale scenes**, comprising **120,000+ images** and **1M+ textual descriptions**. It fills a critical gap by providing georeferenced multimodal data for SAR research.
 
 - **🧠 HCoT-Guided Text Generation:**  
   A novel **Hierarchical Chain-of-Thought (HCoT)** instruction system simulates human reasoning to guide large language models. It enables structured, explainable, and scalable annotation without manual intervention.
 
-- **🤖 SAR-KnowLIP Foundation Model:**  
+- **🤖 FUSAR-KLIP Foundation Model:**  
   The first large-scale **vision-language foundational model** tailored for SAR imagery. It leverages **multi-task self-supervised learning** (contrastive, matching, and reconstruction) and introduces a **Self-Consistent Iterative Optimization (SCIO)** module to refine semantic alignment through a closed-loop mechanism of **screening, proofreading, and reconstruction**.
 
 - **🚀 Leading Multi-Task Generalization:**  
-  SAR-KnowLIP exhibits **superior performance** across a wide range of downstream tasks—**target classification**, **detection**, **segmentation**, **captioning**, **image-text retrieval**, and **visual question answering**—outperforming existing remote sensing multimodal models in semantic understanding and generalization.
+  FUSAR-KLIP exhibits **superior performance** across a wide range of downstream tasks—**target classification**, **detection**, **segmentation**, **captioning**, **image-text retrieval**, and **visual question answering**—outperforming existing remote sensing multimodal models in semantic understanding and generalization.
 
 ---
-## 📦 Dataset: SAR-GEOVL-1M
+## 📦 Dataset: FUSAR-GEOVL-1M
 
-SAR-KnowLIP is built on **SAR-GEOVL-1M**, a large-scale multimodal SAR dataset containing over 100,000 images and 1 million structured textual annotations. This dataset is designed to support geospatially grounded semantic understanding for Synthetic Aperture Radar (SAR) imagery, enabling hierarchical, interpretable, and scalable multimodal learning.
+FUSAR-KLIP is built on **FUSAR-GEOVL-1M**, a large-scale multimodal SAR dataset containing over 100,000 images and 1 million structured textual annotations. This dataset is designed to support geospatially grounded semantic understanding for Synthetic Aperture Radar (SAR) imagery, enabling hierarchical, interpretable, and scalable multimodal learning.
 
 <div align="center">
   <img src="fu/figure/data_map.png" width="700" alt="SAR-GEOVL-1M Samples"/>
   <br/>
-  <em>Figure 2: Geographic distribution of SAR-GEOVL-1M. The dataset covers 30 representative cities and includes data collected from three major satellite platforms, ensuring a wide diversity of regional characteristics and imaging conditions.</em>
+  <em>Figure 2: Geographic distribution of FUSAR-GEOVL-1M. The dataset covers 30 representative cities and includes data collected from three major satellite platforms, ensuring a wide diversity of regional characteristics and imaging conditions.</em>
 </div>
 
 <div align="center">
@@ -62,7 +62,7 @@ SAR-KnowLIP is built on **SAR-GEOVL-1M**, a large-scale multimodal SAR dataset c
 
 ## 📊 Evaluation
 
-SAR-KnowLIP is benchmarked on a wide range of SAR multimodal tasks, including:
+FUSAR-KLIP is benchmarked on a wide range of SAR multimodal tasks, including:
 
 - ✈️ Target classification & detection
 - 📌 Object segmentation
@@ -81,11 +81,11 @@ The model demonstrates leading generalization capability and semantic alignment 
 
 ## 📁 Dataset Download
 
-The SAR-GEOVL-1M dataset will be made publicly available soon.
+The FUSAR-GEOVL-1M dataset will be made publicly available soon.
 
 ---
 
-## 🧠 Model: SAR-KnowLIP
+## 🧠 Model: FUSAR-KLIP
 
 **📌 The model weight will be released soon.**
 
