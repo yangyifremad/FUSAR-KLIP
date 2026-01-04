@@ -84,12 +84,12 @@ Cross-modal artificial intelligence, represented by visual language models, has 
 
 
 ---
-## 📊 Visual Language Multimodal Learning Methods：FUSAR-KLIP
+## 📊 Visual Language Multimodal Learning Methods：[FUSAR-KLIP](code/model/Pretrain) 
 
 <div align="center">
   <img src="fu/figure/fig7.png" width="800" alt="SAR-KnowLIP Framework"/>
   <br/>
-  <em> Overall framework of the FUSAR-KLIP[code](code/model/Pretrain) .</em>
+  <em> Overall framework of the FUSAR-KLIP.</em>
 </div>
 
 
@@ -136,7 +136,3 @@ If you find our work helpful for your research, please consider citing our paper
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2509.23927}, 
 }
-
-
-
-
