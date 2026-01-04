@@ -1,0 +1,1 @@
+The source code, pre-trained weights of FUSAR-KLIP, and the FUSAR-GEOVL-1M dataset are currently being organized and will be fully open-sourced upon the official publication of our paper. Stay tuned!
